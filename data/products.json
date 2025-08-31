@@ -1,0 +1,260 @@
+{
+  "categories": [
+    {
+      "id": "women",
+      "name": "Women",
+      "subcategories": [
+        { "id": "clothing", "name": "Clothing" },
+        { "id": "shoes", "name": "Shoes" },
+        { "id": "bags", "name": "Bags" },
+        { "id": "accessories", "name": "Accessories" },
+        { "id": "jewelry", "name": "Jewelry" }
+      ]
+    },
+    {
+      "id": "men",
+      "name": "Men",
+      "subcategories": [
+        { "id": "clothing", "name": "Clothing" },
+        { "id": "shoes", "name": "Shoes" },
+        { "id": "bags", "name": "Bags" },
+        { "id": "accessories", "name": "Accessories" }
+      ]
+    },
+    {
+      "id": "kids",
+      "name": "Kids",
+      "subcategories": [{ "id": "girls", "name": "Girls" }, { "id": "boys", "name": "Boys" }]
+    },
+    {
+      "id": "home",
+      "name": "Home",
+      "subcategories": [{ "id": "decor", "name": "Decor" }, { "id": "furniture", "name": "Furniture" }]
+    }
+  ],
+  "brands": [
+    "Valentino",
+    "Bottega Veneta",
+    "Saint Laurent",
+    "Gucci",
+    "Prada",
+    "Balenciaga",
+    "Off-White",
+    "Golden Goose",
+    "Brunello Cucinelli",
+    "Max Mara",
+    "Hermès",
+    "Jacquemus",
+    "The Row",
+    "Ganni",
+    "Isabel Marant",
+    "Zimmermann"
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Rockstud Alcove Small Shoulder Bag",
+      "brand": "Valentino",
+      "price": 2100,
+      "originalPrice": 2400,
+      "category": "women",
+      "subcategory": "bags",
+      "images": [
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=600&h=800&fit=crop"
+      ],
+      "description": "Small shoulder bag in quilted nappa leather with iconic Rockstud detailing and chain strap.",
+      "colors": ["Black", "Nude", "Red"],
+      "inStock": true,
+      "isNew": true,
+      "isSale": true
+    },
+    {
+      "id": "2",
+      "name": "Silk Crepe de Chine Midi Dress",
+      "brand": "Saint Laurent",
+      "price": 3200,
+      "category": "women",
+      "subcategory": "clothing",
+      "images": [
+        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1566479179817-c0b5b4b4b1e5?w=600&h=800&fit=crop"
+      ],
+      "description": "Elegant midi dress in silk crepe de chine with fluid draping and minimalist silhouette.",
+      "sizes": ["34", "36", "38", "40", "42"],
+      "colors": ["Black", "Ivory", "Navy"],
+      "inStock": true,
+      "isNew": false,
+      "isSale": false
+    },
+    {
+      "id": "3",
+      "name": "Intrecciato Leather Pouch",
+      "brand": "Bottega Veneta",
+      "price": 1890,
+      "category": "women",
+      "subcategory": "bags",
+      "images": [
+        "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=600&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600&h=800&fit=crop"
+      ],
+      "description": "Iconic intrecciato woven leather pouch with magnetic closure and detachable wrist strap.",
+      "colors": ["Fondant", "Black", "Bottega Green"],
+      "inStock": true,
+      "isNew": true,
+      "isSale": false
+    },
+    {
+      "id": "4",
+      "name": "Superstar Distressed Leather Sneakers",
+      "brand": "Golden Goose",
+      "price": 560,
+      "originalPrice": 650,
+      "category": "women",
+      "subcategory": "shoes",
+      "images": [
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=600&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&h=800&fit=crop"
+      ],
+      "description": "Handcrafted distressed leather sneakers with signature star patch and vintage finish.",
+      "sizes": ["35", "36", "37", "38", "39", "40", "41"],
+      "colors": ["White/Silver", "Black", "Pink"],
+      "inStock": true,
+      "isNew": false,
+      "isSale": true
+    },
+    {
+      "id": "5",
+      "name": "Cashmere Turtleneck Sweater",
+      "brand": "Brunello Cucinelli",
+      "price": 1450,
+      "category": "women",
+      "subcategory": "clothing",
+      "images": [
+        "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1583743814966-8936f37f4678?w=600&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=600&h=800&fit=crop"
+      ],
+      "description": "Luxurious cashmere turtleneck sweater with ribbed trim and relaxed fit.",
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "colors": ["Camel", "Cream", "Grey", "Navy"],
+      "inStock": true,
+      "isNew": true,
+      "isSale": false
+    },
+    {
+      "id": "6",
+      "name": "Le Chiquito Mini Leather Bag",
+      "brand": "Jacquemus",
+      "price": 520,
+      "category": "women",
+      "subcategory": "bags",
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&h=800&fit=crop"
+      ],
+      "description": "Miniature leather handbag with top handle and detachable shoulder strap.",
+      "colors": ["Pink", "Yellow", "Green", "White"],
+      "inStock": true,
+      "isNew": true,
+      "isSale": false
+    },
+    {
+      "id": "7",
+      "name": "Wool and Cashmere Coat",
+      "brand": "Max Mara",
+      "price": 2890,
+      "category": "women",
+      "subcategory": "clothing",
+      "images": [
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=600&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=600&h=800&fit=crop"
+      ],
+      "description": "Classic double-breasted coat in wool and cashmere blend with notched lapels.",
+      "sizes": ["34", "36", "38", "40", "42", "44"],
+      "colors": ["Camel", "Black", "Navy", "Grey"],
+      "inStock": true,
+      "isNew": false,
+      "isSale": false
+    },
+    {
+      "id": "8",
+      "name": "Opyum Pumps in Patent Leather",
+      "brand": "Saint Laurent",
+      "price": 995,
+      "category": "women",
+      "subcategory": "shoes",
+      "images": [
+        "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1596702962347-cbbe4c2d3d2d?w=600&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=600&h=800&fit=crop"
+      ],
+      "description": "Patent leather pumps with YSL logo heel and pointed toe.",
+      "sizes": ["35", "36", "37", "38", "39", "40", "41"],
+      "colors": ["Black", "Red", "Nude"],
+      "inStock": true,
+      "isNew": true,
+      "isSale": false
+    },
+    {
+      "id": "9",
+      "name": "Oversized Blazer",
+      "brand": "Balenciaga",
+      "price": 2200,
+      "originalPrice": 2500,
+      "category": "women",
+      "subcategory": "clothing",
+      "images": [
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1583743814966-8936f37f4678?w=600&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=600&h=800&fit=crop"
+      ],
+      "description": "Oversized blazer in wool with structured shoulders and minimalist design.",
+      "sizes": ["34", "36", "38", "40", "42"],
+      "colors": ["Black", "Grey", "Navy"],
+      "inStock": true,
+      "isNew": false,
+      "isSale": true
+    },
+    {
+      "id": "10",
+      "name": "Dionysus GG Supreme Mini Bag",
+      "brand": "Gucci",
+      "price": 1980,
+      "category": "women",
+      "subcategory": "bags",
+      "images": [
+        "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=600&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600&h=800&fit=crop"
+      ],
+      "description": "Mini shoulder bag in GG Supreme canvas with tiger head closure.",
+      "colors": ["Beige/Ebony", "Black", "Pink"],
+      "inStock": true,
+      "isNew": true,
+      "isSale": false
+    }
+  ],
+  "editorialContent": [
+    {
+      "id": "1",
+      "title": "New Season Arrivals",
+      "subtitle": "Discover the latest from your favorite designers",
+      "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=1200&h=800&fit=crop",
+      "link": "/category/women/clothing"
+    },
+    {
+      "id": "2",
+      "title": "The Bag Edit",
+      "subtitle": "Iconic handbags for every occasion",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&h=800&fit=crop",
+      "link": "/category/women/bags"
+    }
+  ]
+}
